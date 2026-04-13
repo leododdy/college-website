@@ -39,6 +39,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    max-height: fit-content;
     background-color: black;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -61,3 +62,48 @@ main{
     padding-right: 20px;
     border: 3px solid black;
 }
+
+label {
+        float: left;
+        width: 112px;
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    input {
+        margin-left: 1em;
+        margin-bottom: .5em;
+        width: 220px;
+    }
+
+    #button, #reset {
+        margin-top: .5em;
+        width: 8em;
+        background-color: orange;
+        border: 2px solid black;
+    }
+
+    input[type="checkbox"] {
+        width: 15px;
+    }
+
+    #button {
+        margin-left: 138px;
+    }
+
+    #reset {
+        margin-left: 82px;
+    }
+
+    input[type="radio"] {
+        width: 10px;
+    }
+
+    .required {
+        font-weight: bold;
+        color: red;
+    }
+
+    .setback{
+        background-color: beige;
+    }
