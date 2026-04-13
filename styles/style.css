@@ -104,6 +104,13 @@ label {
         color: red;
     }
 
-    .setback{
+    #setback{
         background-color: beige;
+    }
+
+    .coldetail{
+        column-count: 3 ;
+        column-rule: 1px solid white;
+        column-gap: 50px;
+        padding: 2px;
     }
